@@ -1,0 +1,4 @@
+{
+    "source":"test/input.xlsx",
+    "destination":"test/result/result.xml"
+}

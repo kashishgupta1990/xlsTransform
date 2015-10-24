@@ -1,0 +1,365 @@
+<glossary>
+
+	<alphabet>
+		<value>
+			<![CDATA[A]]>
+		</value>
+		<words>
+
+		</words>
+	</alphabet>
+
+
+	<alphabet>
+		<value>
+			<![CDATA[C]]>
+		</value>
+		<words>
+
+			<word>
+				<value type="String">
+					<![CDATA[creature]]>
+				</value>
+				<description type="String">
+					<![CDATA[a living animal]]>
+				</description>
+				<audioURL type="String">
+					<![CDATA[creature.mp3]]>
+				</audioURL>
+				<imageURL type="String">
+					<![CDATA[]]>
+				</imageURL>
+			</word>
+			<word>
+				<value type="String">
+					<![CDATA[creeper]]>
+				</value>
+				<description type="String">
+					<![CDATA[a plant that grows along the ground or around a tree or up a wall ]]>
+				</description>
+				<audioURL type="String">
+					<![CDATA[creeper.mp3]]>
+				</audioURL>
+				<imageURL type="String">
+					<![CDATA[creeper.jpg]]>
+				</imageURL>
+			</word>
+
+		</words>
+	</alphabet>
+
+	<alphabet>
+		<value>
+			<![CDATA[D]]>
+		</value>
+		<words>
+
+			<word>
+				<value type="String">
+					<![CDATA[draw up]]>
+				</value>
+				<description type="String">
+					<![CDATA[make ]]>
+				</description>
+				<audioURL type="String">
+					<![CDATA[draw up(AWB).mp3]]>
+				</audioURL>
+				<imageURL type="String">
+					<![CDATA[]]>
+				</imageURL>
+			</word>
+
+
+
+
+		</words>
+	</alphabet>
+
+
+
+	<alphabet>
+		<value>
+			<![CDATA[F]]>
+		</value>
+		<words>
+
+			<word>
+				<value type="String">
+					<![CDATA[froggies ]]>
+				</value>
+				<description type="String">
+					<![CDATA[a fun way of naming small frogs]]>
+				</description>
+				<audioURL type="String">
+					<![CDATA[froggies.mp3]]>
+				</audioURL>
+				<imageURL type="String">
+					<![CDATA[]]>
+				</imageURL>
+			</word>
+
+
+		</words>
+	</alphabet>
+
+	<alphabet>
+		<value>
+			<![CDATA[G]]>
+		</value>
+		<words>
+
+			<word>
+				<value type="String">
+					<![CDATA[guess]]>
+				</value>
+				<description type="String">
+					<![CDATA[to try and answer a question when we are not sure ]]>
+				</description>
+				<audioURL type="String">
+					<![CDATA[guess (AWB).mp3]]>
+				</audioURL>
+				<imageURL type="String">
+					<![CDATA[]]>
+				</imageURL>
+			</word>
+
+
+
+
+
+		</words>
+	</alphabet>
+
+	<alphabet>
+		<value>
+			<![CDATA[H]]>
+		</value>
+		<words>
+
+			<word>
+				<value type="String">
+					<![CDATA[hardware shop]]>
+				</value>
+				<description type="String">
+					<![CDATA[a shop that sells paints, locks, garden tools, etc]]>
+				</description>
+				<audioURL type="String">
+					<![CDATA[hardware shop.mp3]]>
+				</audioURL>
+				<imageURL type="String">
+					<![CDATA[]]>
+				</imageURL>
+			</word>
+
+
+
+
+
+
+		</words>
+	</alphabet>
+
+
+
+
+	<alphabet>
+		<value>
+			<![CDATA[M]]>
+		</value>
+		<words>
+
+			<word>
+				<value type="String">
+					<![CDATA[material]]>
+				</value>
+				<description type="String">
+					<![CDATA[things used for making something]]>
+				</description>
+				<audioURL type="String">
+					<![CDATA[material.mp3]]>
+				</audioURL>
+				<imageURL type="String">
+					<![CDATA[]]>
+				</imageURL>
+			</word>
+
+
+
+		</words>
+	</alphabet>
+
+
+
+	<alphabet>
+		<value>
+			<![CDATA[N]]>
+		</value>
+		<words>
+
+			<word>
+				<value type="String">
+					<![CDATA[nesting place]]>
+				</value>
+				<description type="String">
+					<![CDATA[a place where a bird can make its nest]]>
+				</description>
+				<audioURL type="String">
+					<![CDATA[nesting place.mp3]]>
+				</audioURL>
+				<imageURL type="String">
+					<![CDATA[]]>
+				</imageURL>
+			</word>
+
+
+
+
+
+		</words>
+	</alphabet>
+
+	<alphabet>
+		<value>
+			<![CDATA[P]]>
+		</value>
+		<words>
+
+			<word>
+				<value type="String">
+					<![CDATA[plywood]]>
+				</value>
+				<description type="String">
+					<![CDATA[a board of wood]]>
+				</description>
+				<audioURL type="String">
+					<![CDATA[plywood.mp3]]>
+				</audioURL>
+				<imageURL type="String">
+					<![CDATA[plywood.jpg]]>
+				</imageURL>
+			</word>
+
+
+
+		</words>
+	</alphabet>
+
+	<alphabet>
+		<value>
+			<![CDATA[R]]>
+		</value>
+		<words>
+
+			<word>
+				<value type="String">
+					<![CDATA[replied]]>
+				</value>
+				<description type="String">
+					<![CDATA[answered]]>
+				</description>
+				<audioURL type="String">
+					<![CDATA[replied (AWB).mp3]]>
+				</audioURL>
+				<imageURL type="String">
+					<![CDATA[]]>
+				</imageURL>
+			</word>
+			<word>
+				<value type="String">
+					<![CDATA[rushy ]]>
+				</value>
+				<description type="String">
+					<![CDATA[covered with rushes, a type of plant that grows near water ]]>
+				</description>
+				<audioURL type="String">
+					<![CDATA[rushy.mp3]]>
+				</audioURL>
+				<imageURL type="String">
+					<![CDATA[rushy.jpg]]>
+				</imageURL>
+			</word>
+
+
+		</words>
+	</alphabet>
+
+
+	<alphabet>
+		<value>
+			<![CDATA[S]]>
+		</value>
+		<words>
+
+			<word>
+				<value type="String">
+					<![CDATA[sketch]]>
+				</value>
+				<description type="String">
+					<![CDATA[a simple drawing that shows what something will finally look like ]]>
+				</description>
+				<audioURL type="String">
+					<![CDATA[sketch (AWB).mp3]]>
+				</audioURL>
+				<imageURL type="String">
+					<![CDATA[sketch.jpg]]>
+				</imageURL>
+			</word>
+
+
+		</words>
+	</alphabet>
+
+	<alphabet>
+		<value>
+			<![CDATA[V]]>
+		</value>
+		<words>
+
+			<word>
+				<value type="String">
+					<![CDATA[vest]]>
+				</value>
+				<description type="String">
+					<![CDATA[a sleeveless piece of clothing that is worn over a shirt]]>
+				</description>
+				<audioURL type="String">
+					<![CDATA[vest.mp3]]>
+				</audioURL>
+				<imageURL type="String">
+					<![CDATA[vest.jpg]]>
+				</imageURL>
+			</word>
+
+
+		</words>
+	</alphabet>
+
+	<alphabet>
+		<value>
+			<![CDATA[W]]>
+		</value>
+		<words>
+
+			<word>
+				<value type="String">
+					<![CDATA[window ledge]]>
+				</value>
+				<description type="String">
+					<![CDATA[a narrow shelf outside a window]]>
+				</description>
+				<audioURL type="String">
+					<![CDATA[window ledge.mp3]]>
+				</audioURL>
+				<imageURL type="String">
+					<![CDATA[window ledge.jpg]]>
+				</imageURL>
+			</word>
+
+
+		</words>
+	</alphabet>	
+
+
+
+
+</glossary>
