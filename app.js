@@ -4,10 +4,11 @@ var config = require('./config.json');
 var workbook = xlsx.readFile(config.source);
 var sheet1 = workbook.SheetNames[0];
 var workSheet = workbook.Sheets[sheet1];
+var regex = new RegExp("[^\\s\\p{Latin}]+", "g");
 var fs = require('fs');
 
 var transformToJsonList = function(workSheet){
-    var termColumn = 'B',definitionColumn = 'C', imageUrlColumn = 'D', audioColumn = 'E';
+    var termColumn = 'B', definitionColumn = 'C', audioColumn = 'E', imageUrlColumn = 'F', animationUrlColumn = 'G';
     var rowIndex = 2;
     var list = [];
 
@@ -17,11 +18,16 @@ var transformToJsonList = function(workSheet){
                 value: workSheet[termColumn+rowIndex].v,
                 description: workSheet[definitionColumn+rowIndex].v,
                 audioUrl: workSheet[audioColumn+rowIndex].v,
-                imageUrl: workSheet[imageUrlColumn+rowIndex]?workSheet[imageUrlColumn+rowIndex]:''
+                imageUrl: workSheet[imageUrlColumn+rowIndex].v || workSheet[animationUrlColumn+rowIndex].v || ''
             }
         );
         rowIndex++;
     }
+
+    // Filter Special Symbol
+    list.forEach(function(data){
+            data.description = data.description.replace(regex,'');
+    });
     return list;
 };
 var groupAlphabetOrder = function(jsonList){
@@ -71,6 +77,8 @@ var buildXml = function(renderList){
             }
             if(word.imageUrl){
                 tmpWord.insertAfter('imageURL',{'type': 'String'}).dat(word.imageUrl);
+            }else{
+                tmpWord.insertAfter('imageURL',{'type': 'String'});
             }
         });
     });
